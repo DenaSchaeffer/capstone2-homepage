@@ -27,12 +27,9 @@ Cincinnati, OH
 
 ## Project homepage
 
-[Provide the URL to your team project homepage here]
+<https://cps491s21-team8.bitbucket.io/>
 
-# Overview
-
-- Step 1
-- Step 2
+Develop a classification system that can analyze the text of a threat intelligence report and produce a score which quantifies the relevancy of that report to the receiving organization based on a list of user-defined relevant topics.
 
 ![Overview Architecture](images/Process-diagram491.png)
 
@@ -50,24 +47,25 @@ This project will be used by GE Aviation's Cyber Intelligence team to provide a 
 
 # Technology
 
-Specify the development approach of your team, including programming languages, database, development, testing, and deployment environments.
+- Python3.8 (relevancy calculator, natural language processing)
+- Bash scripting (outputting data, output formatting)
+- RSS feeds (data collected via RSS feeds)
 
-You also need to mention if there are any technical support and preferences from the company and if they provide an existing version of the application.
 
 # Project Management
 
-We will follow the Scrum approach, thus your team needs to identify the task in each sprint cycles, team meeting schedules, including this Fall and next Spring semester. The planned schedule and sprint cycles for Spring 2021 are as follows.
+Link to repository: <https://bitbucket.org/cps491s21-team8/cps491s21-team8.bitbucket.io/src/master/>
 
-![Spring 2021 Timeline](https://capstones-cs-udayton.bitbucket.io/imgs/cps491s21timeline.png "Spring 2021 Timeline")
+Link to Trello: <https://trello.com/b/LNj1LyZ5/ge-project>
 
-In this section, provide the link to your team bitbucket repository and Trello board. Your team must share the repo and the board with cps490f20@gmail.com
+We will follow the Scrum approach, using the following timeline. We have initial tasks for Sprint 0 and Sprint 1 so that we can get started next semester.
 
-Include the screenshot of the timeline from your Trello board (with tasks). You can use the Trello template available here (only with timeline): [https://trello.com/b/uIgKfjr6/cps491-s21](https://trello.com/b/uIgKfjr6/cps491-s21)  
+![Spring 2021 Timeline](images/capstone2Trello.png)
 
-Below is the example of the Trello board timeline (Gantt chart) with sprint cycles but without tasks for Spring 2021: 
+Figure 2. - Trello board timeline with sprit cycles and tasks
 
-![Spring 2021 Timeline on Trello](https://capstones-cs-udayton.bitbucket.io/imgs/trello.png "Spring 2021 Timeline")
+
 
 # Company Support
 
-Based on your discussion with the company, describe here what they will support your team during this Fall and next Spring semester, and the communication plan with the company mentors.
+Our company mentor, Jeffrey Archer, has already provided us with the files and technology requirements we need for this project. He also has provided us with an open source for communication whenever necessary, and a plan to meet at least once per release cycle.
