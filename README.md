@@ -34,7 +34,7 @@ Cincinnati, OH
 - Step 1
 - Step 2
 
-![Overview Architecture](https://capstones-cs-udayton.bitbucket.io/imgs/overview-sample.png "A Sample of Overview Architecture")
+![Overview Architecture](images/Process-diagram491.png)
 
 Figure 1. - A Sample of Overview Architecture of the proposed project.
 
