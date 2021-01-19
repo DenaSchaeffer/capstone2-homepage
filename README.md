@@ -13,7 +13,7 @@ Dr. Phu Phung
 # Team members
 
 1. Beth Hosek, hoseke1@udayton.edu
-2. Dena Schaeffer, backd@udayton.edu
+2. Dena Schaeffer, backd1@udayton.edu
 3. Jacob Scheetz, scheetzj2@udayton.edu
 4. Justen Stall, stallj2@udayton.edu
 
