@@ -41,6 +41,8 @@ This project will be used by GE Aviation's Cyber Intelligence team to provide a 
 
 # High-level Requirements
 
+![Overview Use Case](images/Overview-usecase.png)
+
 - A natural language processor/content analyser to analyze the contents of threat reports and pick out key terms and themes
 - Similarity analyzer to compare the output of the content to a user
 - Significance/relevance score calculator that generates a numerical representation of the output of the similarity analyzer to indicate how relevant a report is to the user-defined list of topics.
