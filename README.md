@@ -82,22 +82,27 @@ Include the Trello board with product backlog and sprint cycles in an overview f
 
 Also, include the Gantt chart reflects the timeline from the Trello board. _(Main focus of Sprint 0)_
 
-
 ## Scrum process
 
 ### Sprint 0
 
-Duration: DD/MM/YYYY-DD/MM/YYYY
+Duration: 1/19/2021-1/26/2021
 
-#### Completed Tasks: 
+#### Completed Tasks:
 
-1. Task 1
-2. Task 2
-3. ...
+1. Create a “sprint0” branch in your team's main repository (use the existing one from Capstone I or create a new repository. Ensure that you share your team workspace with cps490f20@gmail.com)
+2. Extend the proposal to make it the main report, add
+   - Overview use case diagram
+   - Use case descriptions
+   - The initial design of the database (if applicable)
+3. Revise the Trello board to modify the sprints, backlogs, if needed
+   - Put the deadlines according to the revised course schedule
+4. Tool/software installation
+5. Update your team homepage with useful information, e.g., course info, your team, project title and overview, and sponsored company
 
-#### Contributions: 
+#### Contributions:
 
-1.  Member 1, x commits, y hours, contributed in xxx
-2.  Member 2, x commits, y hours, contributed in xxx
-3.  Member 3, x commits, y hours, contributed in xxx
-4.  Member 4, x commits, y hours, contributed in xxx
+1. Justen Stall, 3 commits, 3 hours, contributed in tasks 2, 4, and 5
+2. Member 2, x commits, y hours, contributed in xxx
+3. Member 3, x commits, y hours, contributed in xxx
+4. Member 4, x commits, y hours, contributed in xxx
