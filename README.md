@@ -92,10 +92,12 @@ Duration: 1/19/2021-1/26/2021
    - Put the deadlines according to the revised course schedule
 4. Tool/software installation
 5. Update your team homepage with useful information, e.g., course info, your team, project title and overview, and sponsored company
+6. Attendance
+7. Communication with company Mentor
 
 #### Contributions:
 
 1. Justen Stall, 3 commits, 3 hours, contributed in tasks 2, 4, and 5
 2. Dena Schaeffer, 3 commits, 3 hours, contributed in 1, 2, 3, and 4
-3. Member 3, x commits, y hours, contributed in xxx
+3. Beth Hosek, 12 commits, 2.5 hours, contributed in 2,3,4,5,6,7
 4. Member 4, x commits, y hours, contributed in xxx
