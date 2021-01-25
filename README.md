@@ -51,11 +51,16 @@ This project will be used by GE Aviation's Cyber Intelligence team to provide a 
 - Similarity analyzer to compare the output of the content to a user
 - Significance/relevance score calculator that generates a numerical representation of the output of the similarity analyzer to indicate how relevant a report is to the user-defined list of topics.
 
-# Use Cases
+# Use Cases and Functional Requirements
 
 ![Overview Use Case](images/Overview-usecase.png)
 
 Figure 2. - Overview Use Case Diagram
+
+### Sprint 0
+
+- Functional Requirement: Download necessary technologies such as VS Code, Python 3.8+, etc. so we can begin working on user stories for Sprint 1
+- Functional Requirement: Download company project specific content so we can begin working on user stories for Sprint 1
 
 # Technology
 
@@ -99,5 +104,5 @@ Duration: 1/19/2021-1/26/2021
 
 1. Justen Stall, 3 commits, 3 hours, contributed in tasks 2, 4, and 5
 2. Dena Schaeffer, 3 commits, 3 hours, contributed in 1, 2, 3, and 4
-3. Beth Hosek, 12 commits, 2.5 hours, contributed in 2,3,4,5,6,7
-4. Member 4, x commits, y hours, contributed in xxx
+3. Beth Hosek, 12 commits, 3 hours, contributed in ,3,4,5,6,7
+4. Jake Scheetz, 4 commits, 3 hours, contributed in overview, 2, 3, 4 and 7
