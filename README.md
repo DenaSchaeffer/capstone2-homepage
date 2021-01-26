@@ -25,11 +25,17 @@ GE Aviation
 
 Cincinnati, OH
 
-## Project homepage
+## Project Management Information
 
-<https://cps491s21-team8.bitbucket.io/>
+Link to repository: <https://bitbucket.org/cps491s21-team8/cps491s21-team8.bitbucket.io/src/master/>
 
-Develop a classification system that can analyze the text of a threat intelligence report and produce a score which quantifies the relevancy of that report to the receiving organization based on a list of user-defined relevant topics.
+Link to Trello: <https://trello.com/b/LNj1LyZ5/ge-project>
+
+Project Homepage (Public):<https://cps491s21-team8.bitbucket.io/>
+
+## Overview
+
+The goal is to develop a classification system that can analyze the text of a threat intelligence report and produce a score which quantifies the relevancy of that report to the receiving organization based on a list of user-defined relevant topics.
 
 ![Overview Architecture](images/Process-diagram491.png)
 
@@ -45,29 +51,63 @@ This project will be used by GE Aviation's Cyber Intelligence team to provide a 
 - Similarity analyzer to compare the output of the content to a user
 - Significance/relevance score calculator that generates a numerical representation of the output of the similarity analyzer to indicate how relevant a report is to the user-defined list of topics.
 
+# Use Cases and Functional Requirements
+
+![Overview Use Case](images/Overview-usecase.png)
+
+Figure 2. - Overview Use Case Diagram
+
+### Sprint 0
+
+- Functional Requirement: Download necessary technologies such as VS Code, Python 3.8+, etc. so we can begin working on user stories for Sprint 1
+- Functional Requirement: Download company project specific content so we can begin working on user stories for Sprint 1
+
 # Technology
 
 - Python3.8 (relevancy calculator, natural language processing)
 - Bash scripting (outputting data, output formatting)
 - RSS feeds (data collected via RSS feeds)
 
+# Company Support
 
-# Project Management
+Our company mentor, Jeffrey Archer, has already provided us with the files and technology requirements we need for this project. He also has provided us with an open source for communication whenever necessary, and a plan to meet at least once per release cycle.
 
-Link to repository: <https://bitbucket.org/cps491s21-team8/cps491s21-team8.bitbucket.io/src/master/>
-
-Link to Trello: <https://trello.com/b/LNj1LyZ5/ge-project>
+# Software Process Management
 
 We will follow the Scrum approach, using the following timeline. We have initial tasks for Sprint 0 and Sprint 1 so that we can get started next semester.
 
 ![Spring 2021 Timeline](images/capstone2Trello.png)
 
-Figure 2. - Trello board timeline with sprit cycles and tasks
+Figure 3. - Trello board timeline with sprit cycles and tasks
 
+## Scrum process
 
+### Sprint 0
 
-# Company Support
+Duration: 1/19/2021-1/26/2021
 
+#### Completed Tasks:
+
+1. Create a “sprint0” branch in your team's main repository (use the existing one from Capstone I or create a new repository. Ensure that you share your team workspace with cps490f20@gmail.com)
+2. Extend the proposal to make it the main report, add
+   - Overview use case diagram
+   - Use case descriptions
+   - The initial design of the database (if applicable)
+3. Revise the Trello board to modify the sprints, backlogs, if needed
+   - Put the deadlines according to the revised course schedule
+4. Tool/software installation
+5. Update your team homepage with useful information, e.g., course info, your team, project title and overview, and sponsored company
+6. Attendance
+7. Communication with company Mentor
+
+#### Contributions:
+
+<<<<<<< HEAD
+1. Justen Stall, 3 commits, 3 hours, contributed in tasks 2, 4, and 5
+2. Dena Schaeffer, 3 commits, 3 hours, contributed in 1, 2, 3, and 4
+3. Beth Hosek, 12 commits, 3 hours, contributed in ,3,4,5,6,7
+4. Jake Scheetz, 4 commits, 3 hours, contributed in overview, 2, 3, 4 and 7
+=======
 Our company mentor, Jeffrey Archer, has already provided us with the files and technology requirements we need for this project. He also has provided us with an open source for communication whenever necessary, and a plan to meet at least once per release cycle.
 
 # Software Process Management
@@ -99,3 +139,4 @@ Duration: DD/MM/YYYY-DD/MM/YYYY
 2.  Member 2, x commits, y hours, contributed in xxx
 3.  Member 3, x commits, y hours, contributed in xxx
 4.  Member 4, x commits, y hours, contributed in xxx
+>>>>>>> remotes/origin/master
