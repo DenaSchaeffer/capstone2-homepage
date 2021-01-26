@@ -102,7 +102,41 @@ Duration: 1/19/2021-1/26/2021
 
 #### Contributions:
 
+<<<<<<< HEAD
 1. Justen Stall, 3 commits, 3 hours, contributed in tasks 2, 4, and 5
 2. Dena Schaeffer, 3 commits, 3 hours, contributed in 1, 2, 3, and 4
 3. Beth Hosek, 12 commits, 3 hours, contributed in ,3,4,5,6,7
 4. Jake Scheetz, 4 commits, 3 hours, contributed in overview, 2, 3, 4 and 7
+=======
+Our company mentor, Jeffrey Archer, has already provided us with the files and technology requirements we need for this project. He also has provided us with an open source for communication whenever necessary, and a plan to meet at least once per release cycle.
+
+# Software Process Management
+
+_(Start from Sprint 0, keep updating)_
+
+Introduce how your team uses a software management process, e.g., Scrum, how your teamwork, collaborate.
+
+Include the Trello board with product backlog and sprint cycles in an overview figure and also in detail description. _(Main focus of Sprint 0)_
+
+Also, include the Gantt chart reflects the timeline from the Trello board. _(Main focus of Sprint 0)_
+
+
+## Scrum process
+
+### Sprint 0
+
+Duration: DD/MM/YYYY-DD/MM/YYYY
+
+#### Completed Tasks: 
+
+1. Task 1
+2. Task 2
+3. ...
+
+#### Contributions: 
+
+1.  Member 1, x commits, y hours, contributed in xxx
+2.  Member 2, x commits, y hours, contributed in xxx
+3.  Member 3, x commits, y hours, contributed in xxx
+4.  Member 4, x commits, y hours, contributed in xxx
+>>>>>>> remotes/origin/master

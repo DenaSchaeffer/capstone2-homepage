@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "General Electric": ".9", 
     "GE Aviation": ".9", 
     "Safran": ".9", 
@@ -380,4 +381,387 @@
     "CVE": ".3", 
     "COBALT DICKENS": ".2", 
     "Deadeye Jackal": ".2"
+=======
+    "General Electric": ".9", // Business high-relevance term
+    "GE Aviation": ".9", // Business high-relevance term
+    "Safran": ".9", // Business high-relevance term
+    "Avio Aero": ".9", // Business high-relevance term
+    "CJ610": ".9", // Product
+    "CJ805": ".9", // Product
+    "GE1": ".9", // Product
+    "GE4": ".9", // Product
+    "J5P": ".9", // Product
+    "J31": ".9", // Product
+    "J33": ".9", // Product
+    "J35": ".9", // Product
+    "J47": ".9", // Product
+    "J73": ".9", // Product
+    "J79": ".9", // Product
+    "J85": ".9", // Product
+    "J87": ".9", // Product
+    "YJ93": ".9", // Product
+    "J97": ".9", // Product
+    "YJ101": ".9", // Product
+    "GE Affinity": ".9", // Product
+    "CF6": ".9", // Product
+    "CF34": ".9", // Product
+    "CF700": ".9", // Product
+    "CFE738": ".9", // Product
+    "CFM56": ".9", // Product
+    "CJ805-23": ".9", // Product
+    "F101": ".9", // Product
+    "F108": ".9", // Product
+    "F110": ".9", // Product
+    "F118": ".9", // Product
+    "YF120": ".9", // Product
+    "F136": ".9", // Product
+    "F404": ".9", // Product
+    "F412": ".9", // Product
+    "F414": ".9", // Product
+    "GE90": ".9", // Product
+    "GE9X": ".9", // Product
+    "GEnx": ".9", // Product
+    "GP7000": ".9", // Product
+    "HF120": ".9", // Product
+    "LEAP": ".9", // Product
+    "GE Passport": ".9", // Product
+    "RM12": ".9", // Product
+    "TF34": ".9", // Product
+    "TF39": ".9", // Product
+    "XA100": ".9", // Product
+    "CT7": ".9", // Product
+    "CT58": ".9", // Product
+    "CT64": ".9", // Product
+    "GE27": ".9", // Product
+    "GE36": ".9", // Product
+    "GE37": ".9", // Product
+    "GE38": ".9", // Product
+    "H80": ".9", // Product
+    "T31": ".9", // Product
+    "T58": ".9", // Product
+    "T64": ".9", // Product
+    "T407": ".9", // Product
+    "T408": ".9", // Product
+    "T700": ".9", // Product
+    "T901": ".9", // Product
+    "LM500": ".9", // Product
+    "LM1500": ".9", // Product
+    "LM1600": ".9", // Product
+    "LM2500": ".9", // Product
+    "LM6000": ".9", // Product
+    "LM9000": ".9", // Product
+    "LMS100": ".9", // Product
+    "RUS1": ".8", // Open-source threat actor names
+    "APT28": ".8", // Open-source threat actor names
+    "Tsar Team": ".8", // Open-source threat actor names
+    "Fancy Bear": ".8", // Open-source threat actor names
+    "Pawn Storm": ".8", // Open-source threat actor names
+    "Iron Twilight": ".8", // Open-source threat actor names
+    "Strontium": ".8", // Open-source threat actor names
+    "Group 74": ".8", // Open-source threat actor names
+    "SnackMackerel": ".8", // Open-source threat actor names
+    "DarkSeoul": ".8", // Open-source threat actor names
+    "Destover": ".8", // Open-source threat actor names
+    "Lazarus Group": ".8", // Open-source threat actor names
+    "Labyrinth Chollima": ".8", // Open-source threat actor names
+    "TEMP.Hermit": ".8", // Open-source threat actor names
+    "Zinc": ".8", // Open-source threat actor names
+    "Bluenoroff": ".8", // Open-source threat actor names
+    "Hidden Cobra": ".8", // Open-source threat actor names
+    "Covellite": ".8", // Open-source threat actor names
+    "Operation Battlecruiser": ".8", // Open-source threat actor names
+    "APT27": ".8", // Open-source threat actor names
+    "Hippo Team": ".8", // Open-source threat actor names
+    "Emissary Panda": ".8", // Open-source threat actor names
+    "Iodine": ".8", // Open-source threat actor names
+    "Bronze Union": ".8", // Open-source threat actor names
+    "LuckyMouse": ".8", // Open-source threat actor names
+    "Archerfish": ".8", // Open-source threat actor names
+    "Operation Iron Tiger": ".8", // Open-source threat actor names
+    "GREF": ".8", // Open-source threat actor names
+    "GE Power": ".75", // Business high-relevance term
+    "GE Healthcare": ".75", // Business high-relevance term
+    "GE Renewable Energy": ".75", // Business high-relevance term
+    "aerospace": ".7", // Industry-relevant term
+    "aviation": ".7", // Industry-relevant term
+    "airline": ".7", // Industry-relevant term
+    "airport": ".7", // Industry-relevant term
+    "aircraft": ".7", // Industry-relevant term
+    "aviation security": ".7", // Industry-relevant term
+    "Tropic Trooper": ".65", // Open-source threat actor names 
+    "Pirate Panda": ".65", // Open-source threat actor names
+    "DarkHotel": ".65", // Open-source threat actor names
+    "Fallout Team": ".65", // Open-source threat actor names
+    "Shadow Crane": ".65", // Open-source threat actor names
+    "Snipefish": ".65", // Open-source threat actor names
+    "Tapaoux": ".65", // Open-source threat actor names
+    "Dubnium": ".65", // Open-source threat actor names
+    "APT-C-06": ".65", // Open-source threat actor names
+    "Silent Chollima": ".65", // Open-source threat actor names
+    "Lotus Panda": ".65", // Open-source threat actor names
+    "Operation Lotus Blossom": ".65", // Open-source threat actor names
+    "Conference Crew": ".65", // Open-source threat actor names
+    "Spring Dragon": ".65", // Open-source threat actor names
+    "Backdoor.Libnut": ".65", // Open-source threat actor names
+    "RUS3": ".65", // Open-source threat actor names
+    "Turla Team": ".65", // Open-source threat actor names
+    "Venomous Bear": ".65", // Open-source threat actor names
+    "Turla": ".65", // Open-source threat actor names
+    "Krypton": ".65", // Open-source threat actor names
+    "Waterbug": ".65", // Open-source threat actor names
+    "Uroburos": ".65", // Open-source threat actor names
+    "Pacifier APT": ".65", // Open-source threat actor names
+    "Snake": ".65", // Open-source threat actor names
+    "Operation Hangover": ".65", // Open-source threat actor names
+    "TEMP.Hangover": ".65", // Open-source threat actor names
+    "Viceroy Tiger": ".65", // Open-source threat actor names
+    "Bitter": ".65", // Open-source threat actor names
+    "EHDevel": ".65", // Open-source threat actor names
+    "Donot Team": ".65", // Open-source threat actor names
+    "APT-C-35": ".65", // Open-source threat actor names
+    "APT16": ".65", // Open-source threat actor names
+    "Lurid": ".65", // Open-source threat actor names
+    "APT15": ".65", // Open-source threat actor names
+    "Social Network Team": ".65", // Open-source threat actor names
+    "Vixen Panda": ".65", // Open-source threat actor names
+    "Albacore": ".65", // Open-source threat actor names
+    "Win32.Inject.ESI": ".65", // Open-source threat actor names
+    "Vinself": ".65", // Open-source threat actor names
+    "PWS-BNC": ".65", // Open-source threat actor names
+    "APT5": ".65", // Open-source threat actor names
+    "Keyhole Panda": ".65", // Open-source threat actor names
+    "Inject-F": ".65", // Open-source threat actor names
+    "Wykcores": ".65", // Open-source threat actor names
+    "Pedryak": ".65", // Open-source threat actor names
+    "Beijing Group": ".65", // Open-source threat actor names
+    "Newscaster Team": ".65", // Open-source threat actor names
+    "NewsBeef APT": ".65", // Open-source threat actor names
+    "APT30": ".65", // Open-source threat actor names
+    "Flying Eagle Team": ".65", // Open-source threat actor names
+    "Koala Team": ".65", // Open-source threat actor names
+    "Energetic Bear": ".65", // Open-source threat actor names
+    "Crouching Yeti": ".65", // Open-source threat actor names
+    "Dragonfly": ".65", // Open-source threat actor names
+    "Palmetto Fusion": ".65", // Open-source threat actor names
+    "XX54": ".65", // Open-source threat actor names
+    "Dymalloy": ".65", // Open-source threat actor names
+    "Group 24": ".65", // Open-source threat actor names
+    "APT31": ".65", // Open-source threat actor names
+    "Judgment Panda": ".65", // Open-source threat actor names
+    "Zirconium": ".65", // Open-source threat actor names
+    "Bronze Vinewood": ".65", // Open-source threat actor names
+    "APT10": ".65", // Open-source threat actor names
+    "Menupass Team": ".65", // Open-source threat actor names
+    "Stone Panda": ".65", // Open-source threat actor names
+    "Snake Wine": ".65", // Open-source threat actor names
+    "ChessMaster": ".65", // Open-source threat actor names
+    "RUS2": ".65", // Open-source threat actor names
+    "APT29": ".65", // Open-source threat actor names
+    "TEMP.Monkey": ".65", // Open-source threat actor names
+    "Cozy Bear": ".65", // Open-source threat actor names
+    "CozyDuke": ".65", // Open-source threat actor names
+    "The Dukes": ".65", // Open-source threat actor names
+    "Yttrium": ".65", // Open-source threat actor names
+    "Operation Dust Storm": ".65", // Open-source threat actor names
+    "CN16": ".65", // Open-source threat actor names
+    "APT3": ".65", // Open-source threat actor names
+    "Clandestine Fox": ".65", // Open-source threat actor names
+    "Gothic Panda": ".65", // Open-source threat actor names
+    "UPS Team": ".65", // Open-source threat actor names
+    "TG-0110": ".65", // Open-source threat actor names
+    "Silvercarp": ".65", // Open-source threat actor names
+    "Boron": ".65", // Open-source threat actor names
+    "Pirpi": ".65", // Open-source threat actor names
+    "Buckeye": ".65", // Open-source threat actor names
+    "APT17": ".65", // Open-source threat actor names
+    "Deputy Dog": ".65", // Open-source threat actor names
+    "Sunshop Campaign": ".65", // Open-source threat actor names
+    "Ephemeral Hydra": ".65", // Open-source threat actor names
+    "Hidden Lynx": ".65", // Open-source threat actor names
+    "Tailgater Team": ".65", // Open-source threat actor names
+    "Aurora Panda": ".65", // Open-source threat actor names
+    "Dogfish": ".65", // Open-source threat actor names
+    "Axiom": ".65", // Open-source threat actor names
+    "Group 72": ".65", // Open-source threat actor names
+    "RUS4": ".65", // Open-source threat actor names
+    "Quedagh": ".65", // Open-source threat actor names
+    "Sandworm Team": ".65", // Open-source threat actor names
+    "Voodoo Bear": ".65", // Open-source threat actor names
+    "Iridium": ".65", // Open-source threat actor names
+    "Industroyer": ".65", // Open-source threat actor names
+    "CrashOverride": ".65", // Open-source threat actor names
+    "VNM1": ".65", // Open-source threat actor names
+    "OceanLotus": ".65", // Open-source threat actor names
+    "APT32": ".65", // Open-source threat actor names
+    "Ocean Buffalo": ".65", // Open-source threat actor names
+    "TEMP.Junk": ".65", // Open-source threat actor names
+    "Operation Cobalt Kitty": ".65", // Open-source threat actor names
+    "APT18": ".65", // Open-source threat actor names
+    "Dynamite Panda": ".65", // Open-source threat actor names
+    "TG-0416": ".65", // Open-source threat actor names
+    "Wekby Team": ".65", // Open-source threat actor names
+    "Nitro Attacks": ".65", // Open-source threat actor names
+    "APT1": ".65", // Open-source threat actor names
+    "Comment Team": ".65", // Open-source threat actor names
+    "Comment Panda": ".65", // Open-source threat actor names
+    "TG-8223": ".65", // Open-source threat actor names
+    "Flagfish": ".65", // Open-source threat actor names
+    "Brownfox": ".65", // Open-source threat actor names
+    "Arid Viper": ".65", // Open-source threat actor names
+    "Desert Falcons": ".65", // Open-source threat actor names
+    "TEMP.Scimitar": ".65", // Open-source threat actor names
+    "KasperAgent": ".65", // Open-source threat actor names
+    "APT-C-23": ".65", // Open-source threat actor names
+    "Refined Kitten": ".65", // Open-source threat actor names
+    "APT33": ".65", // Open-source threat actor names
+    "Magnallium": ".65", // Open-source threat actor names
+    "Elfin": ".65", // Open-source threat actor names
+    "Holmium": ".65", // Open-source threat actor names
+    "HawkEye": ".65", // Open-source threat actor names
+    "Grabit": ".65", // Open-source threat actor names
+    "APT2": ".65", // Open-source threat actor names
+    "Putter Panda": ".65", // Open-source threat actor names
+    "TG-6952": ".65", // Open-source threat actor names
+    "Pufferfish": ".65", // Open-source threat actor names
+    "Ovoxual": ".65", // Open-source threat actor names
+    "Backdoor.Fynlos.A": ".65", // Open-source threat actor names
+    "Backdoor.Whalfrost": ".65", // Open-source threat actor names
+    "MSUpdater": ".65", // Open-source threat actor names
+    "APT": ".5", // Relevant cyber intel term
+    "Advanced Persistent Threat": ".5", // Relevant cyber intel term
+    "indicators of compromise": ".5", // Relevant cyber intel term
+    "government contractors": ".5", // Relevant cyber intel term
+    "Luckycat": ".5", // Open-source threat actor names
+    "Troj/Thetatic-G": ".5", // Open-source threat actor names
+    "Operation Beebus": ".5", // Open-source threat actor names
+    "TEMP.Ace": ".5", // Open-source threat actor names
+    "Confucius_A": ".5", // Open-source threat actor names
+    "ByeBye Shell": ".5", // Open-source threat actor names
+    "TEMP.Periscope": ".5", // Open-source threat actor names
+    "Kryptonite Panda": ".5", // Open-source threat actor names
+    "Leviathan": ".5", // Open-source threat actor names
+    "NanHaiShu": ".5", // Open-source threat actor names
+    "Hellsing": ".5", // Open-source threat actor names
+    "APT40": ".5", // Open-source threat actor names
+    "Gadolinium": ".5", // Open-source threat actor names
+    "Spicy Panda": ".5", // Open-source threat actor names
+    "Radio Panda": ".5", // Open-source threat actor names
+    "Saffron Rose": ".5", // Open-source threat actor names
+    "Rocket Kitten": ".5", // Open-source threat actor names
+    "Flying Kitten": ".5", // Open-source threat actor names
+    "Operation Woolen-GoldFish": ".5", // Open-source threat actor names
+    "Ajax Team": ".5", // Open-source threat actor names
+    "Molerats": ".5", // Open-source threat actor names
+    "Molerats Team": ".5", // Open-source threat actor names
+    "DustySky": ".5", // Open-source threat actor names
+    "Extreme Jackal": ".5", // Open-source threat actor names
+    "TopHat": ".5", // Open-source threat actor names
+    "APT35": ".5", // Open-source threat actor names
+    "Tortoise Shell": ".5", // Open-source threat actor names
+    "APT34": ".5", // Open-source threat actor names
+    "IRN2": ".5", // Open-source threat actor names
+    "OilRig": ".5", // Open-source threat actor names
+    "Helix Kitten": ".5", // Open-source threat actor names
+    "Powbat": ".5", // Open-source threat actor names
+    "APT9": ".5", // Open-source threat actor names
+    "Nightshade Panda": ".5", // Open-source threat actor names
+    "Troj/Bckdr-RIO": ".5", // Open-source threat actor names
+    "EvilGrab": ".5", // Open-source threat actor names
+    "VidGrab": ".5", // Open-source threat actor names
+    "Group 27": ".5", // Open-source threat actor names
+    "Backdoor-DOI": ".5", // Open-source threat actor names
+    "NOT-A-virus:remoteAdmin.Win32.PoisonIvy.C": ".5", // Open-source threat actor names
+    "Troj/Agent-JNU": ".5", // Open-source threat actor names
+    "APT6": ".5", // Open-source threat actor names
+    "CN1": ".5", // Open-source threat actor names
+    "APT19": ".5", // Open-source threat actor names
+    "Codoso Team": ".5", // Open-source threat actor names
+    "Deep Panda": ".5", // Open-source threat actor names
+    "TG-8153": ".5", // Open-source threat actor names
+    "APT4": ".5", // Open-source threat actor names
+    "Wisp Team": ".5", // Open-source threat actor names
+    "Sykipot": ".5", // Open-source threat actor names
+    "TG-0623": ".5", // Open-source threat actor names
+    "Maverick Panda": ".5", // Open-source threat actor names
+    "Goosefish": ".5", // Open-source threat actor names
+    "Wisp": ".5", // Open-source threat actor names
+    "APT12": ".5", // Open-source threat actor names
+    "Numbered Panda": ".5", // Open-source threat actor names
+    "Ixeshe": ".5", // Open-source threat actor names
+    "Calc Team": ".5", // Open-source threat actor names
+    "Desert Pupfish": ".5", // Open-source threat actor names
+    "Trojan.Krast": ".5", // Open-source threat actor names
+    "Win32.Agent.bafk": ".5", // Open-source threat actor names
+    "Win32.Agent.bapk": ".5", // Open-source threat actor names
+    "Win32/Ixeshe.E": ".5", // Open-source threat actor names
+    "Badpuck": ".5", // Open-source threat actor names
+    "Bckdr-RAS": ".5", // Open-source threat actor names
+    "Bckdr-RAU": ".5", // Open-source threat actor names
+    "Pdfexdr-b": ".5", // Open-source threat actor names
+    "APT22": ".5", // Open-source threat actor names
+    "Corkow": ".5", // Open-source threat actor names
+    "Metel": ".5", // Open-source threat actor names
+    "CN3": ".5", // Open-source threat actor names
+    "APT21": ".5", // Open-source threat actor names
+    "NetTraveler": ".5", // Open-source threat actor names
+    "Travnet": ".5", // Open-source threat actor names
+    "Gibberish Panda": ".5", // Open-source threat actor names
+    "TEMP.Zhenbao": ".5", // Open-source threat actor names
+    "Group4": ".5", // Open-source threat actor names
+    "CN4": ".5", // Open-source threat actor names
+    "Smoaler": ".5", // Open-source threat actor names
+    "Troj/Smoaler-A": ".5", // Relevant cyber intel term
+    "Poseidon": ".5", // Open-source threat actor names
+    "chinoxy": ".5", // Known malware
+    "plugx": ".5", // Known malware
+    "qealler": ".5", // Known malware
+    "emotet": ".5", // Known malware
+    "ursnif": ".5", // Known malware
+    "cyber attack": ".4", // Relevant cyber intel term
+    "data breach": ".4", // Relevant cyber intel term
+    "data leak": ".4", // Relevant cyber intel term
+    "cyber intelligence": ".4", // Relevant cyber intel term
+    "cybersecurity": ".4", // Relevant cyber intel term
+    "threat actor": ".4", // Relevant cyber intel term
+    "threat report": ".4", // Relevant cyber intel term
+    "malware": ".4", // Relevant cyber intel term
+    "vulnerability": ".4", // Relevant cyber intel term
+    "backdoor": ".4", // Relevant cyber intel term
+    "trojan": ".4", // Relevant cyber intel term
+    "RAT": ".4", // Relevant cyber intel term
+    "VirusTotal": ".4", // Relevant cyber intel term
+    "phishing": ".4", // Relevant cyber intel term
+    "social engineering": ".4", // Relevant cyber intel term
+    "credential harvesting": ".4", // Relevant cyber intel term
+    "command and control": ".4", // Relevant cyber intel term
+    "security researcher": ".4", // Relevant cyber intel term
+    "reconnaissance": ".4", // Relevant cyber intel term
+    "persistence": ".4", // Relevant cyber intel term
+    "infection": ".4", // Relevant cyber intel term
+    "ransomware": ".4", // Relevant cyber intel term
+    "hackers": ".4", // Relevant cyber intel term
+    "exploit": ".4", // Relevant cyber intel term
+    "shellcode": ".4", // Relevant cyber intel term
+    "macro": ".4", // Relevant cyber intel term
+    "webshell": ".4", // Relevant cyber intel term
+    "steganography": ".4", // Relevant cyber intel term
+    "CloudyOmega": ".35", // Open-source threat actor names
+    "Blue Termite": ".35", // Open-source threat actor names
+    "Icefog": ".35", // Open-source threat actor names
+    "Dagger Panda": ".35", // Open-source threat actor names
+    "Operation Cleaver": ".35", // Open-source threat actor names
+    "TG-2889": ".35", // Open-source threat actor names
+    "Jafar Team": ".35", // Open-source threat actor names
+    "Careto": ".35", // Open-source threat actor names
+    "The Mask": ".35", // Open-source threat actor names
+    "APT8": ".35", // Open-source threat actor names
+    "Animal Farm": ".35", // Open-source threat actor names
+    "Predator Panda": ".35", // Open-source threat actor names
+    "credentials": ".3", // Relevant cyber intel term
+    "passwords": ".3", // Relevant cyber intel term
+    "hash": ".3", // Relevant cyber intel term
+    "CVE": ".3", // Relevant cyber intel term
+    "COBALT DICKENS": ".2", // Open-source threat actor names
+    "Deadeye Jackal": ".2" // Open-source threat actor names
+>>>>>>> remotes/origin/master
 }
