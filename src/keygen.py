@@ -17,7 +17,7 @@ soup = BeautifulSoup(html_doc, 'html.parser')
 
 if (len(argv) < 2):
     print(
-        'Usage: python3 keyword_generator.py <Directory Containing Files>\nNo input directory specified. Quitting...\n'
+        'Usage: python3 keygen.py <Directory Containing Files>\nNo input directory specified. Quitting...\n'
     )
     exit(1)
 c = Counter()
@@ -27,6 +27,11 @@ for f in scandir(argv[1]):
         extract_text_to_fp(i, s)
         c.update(word.lower().strip(punctuation)
                  for word in s.getvalue().split())
+<<<<<<< HEAD:assets/keygen.py
 s = soup.get_text()
 with open('output.json', 'w', encoding='utf-8') as o:
     dump(dict(c.most_common()), o)
+=======
+with open('assets/output.json', 'w', encoding='utf-8') as o:
+    dump(dict(c.most_common()), o)
+>>>>>>> f97644afbb4ca8f9ac1e0c60ce972be594a5e8cc:src/keygen.py
