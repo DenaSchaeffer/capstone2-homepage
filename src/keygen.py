@@ -27,11 +27,5 @@ for f in scandir(argv[1]):
         extract_text_to_fp(i, s)
         c.update(word.lower().strip(punctuation)
                  for word in s.getvalue().split())
-<<<<<<< HEAD:assets/keygen.py
-s = soup.get_text()
 with open('output.json', 'w', encoding='utf-8') as o:
     dump(dict(c.most_common()), o)
-=======
-with open('assets/output.json', 'w', encoding='utf-8') as o:
-    dump(dict(c.most_common()), o)
->>>>>>> f97644afbb4ca8f9ac1e0c60ce972be594a5e8cc:src/keygen.py
