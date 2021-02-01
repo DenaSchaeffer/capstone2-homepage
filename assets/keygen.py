@@ -10,6 +10,10 @@ from os import scandir
 from pdfminer3.high_level import extract_text_to_fp
 from string import punctuation
 from sys import argv, exit
+from bs4 import BeautifulSoup
+
+soup = BeautifulSoup(html_doc, 'html.parser')
+
 
 if (len(argv) < 2):
     print(
@@ -23,5 +27,6 @@ for f in scandir(argv[1]):
         extract_text_to_fp(i, s)
         c.update(word.lower().strip(punctuation)
                  for word in s.getvalue().split())
+s = soup.get_text()
 with open('output.json', 'w', encoding='utf-8') as o:
     dump(dict(c.most_common()), o)
