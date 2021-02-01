@@ -12,7 +12,7 @@ from string import punctuation
 from sys import argv, exit
 from bs4 import BeautifulSoup
 
-soup = BeautifulSoup(html_doc, 'html.parser')
+soup = BeautifulSoup('HTML-files', 'html')
 
 
 if (len(argv) < 2):
@@ -23,9 +23,15 @@ if (len(argv) < 2):
 c = Counter()
 for f in scandir(argv[1]):
     with open(f.path, 'rb') as i:
-        s = StringIO()
-        extract_text_to_fp(i, s)
-        c.update(word.lower().strip(punctuation)
-                 for word in s.getvalue().split())
-with open('output.json', 'w', encoding='utf-8') as o:
+        # s = StringIO()
+        # extract_text_to_fp(i, s)
+        # c.update(word.lower().strip(punctuation)
+        #          for word in s.getvalue().split())
+        # ================ for HTML =====================
+        
+
+
+
+
+with open('assets/htmloutput.json', 'w', encoding='utf-8') as o:
     dump(dict(c.most_common()), o)
