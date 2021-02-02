@@ -1,4 +1,0 @@
-name: ge
-dependencies:
-  - pdfminer3
-  - bs4
