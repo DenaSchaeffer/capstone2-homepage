@@ -8,8 +8,6 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-	<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"> -->
-
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
 	<link href="styles.css" rel="stylesheet" type="text/css" />
@@ -18,239 +16,336 @@
 
 <body>
 
-	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-		<nav class="sticky-top bg-white border-bottom">
-			<section class="container pt-3">
-				<div class="row">
-					<div class="col-9">
-						<div class="mb-2">
-							<img width="275px" src="images/GE-logo.png">
-						</div>
-						<h1 class="display-4">Cyber Turtle</h1>
-						<p class="lead">Cyber Threat Intelligence Reporting Tool</p>
-					</div>
-
-					<div class="col-3 text-end mb-3">
-						<br>
-						<img class="mb-3" width="200px" src="images/daytonlogo.png">
-						<h4 class="mb-0">University of Dayton</h4>
-						<h4 class="mb-0">Capstone II Spring 2021</h4>
-						<h4 class="mb-0">Team 8</h4>
-					</div>
-
-				</div>
-			</section>
-		</nav>
-		<div class="text-center"><img src="images/cyber-turtle.png" alt="Cyber-Turtle-Logo"></div>
-		<section class="container mt-3">
-			<h2 class="text-center">Meet Our Team</h2>
-			<p class="text-center">
-				Our team consistents of four senior Computer Science students: Beth Hosek, Dena Schaeffer, Jacob Scheetz and
-				Justen Stall.
-				All of us being interested in the field of cybersecurity, we took a passion to developing a tool that could
-				actually make an impact on GE Aviation's Cyber Intelligence team. After all of the hard work
-				we have poured into this project to make it as practical, user friendly and effective as possible- we are
-				more than proud to present our fully functional Cyber Threat Intelligence command line tool, Cyber Turtle.
-				Get to know us, the Cyber Turtle development team, below:
-			</p>
-
-			<!-- <div class="container-fluid"> -->
-				<div class="row gx-1">
-					<div class="team-member col border rounded-3 p-3 mx-2">
-						<img class="mw-100" src="images/bhosek.png" alt="Beth Hosek" />
-						<h3 class="pt-3 text-center">Beth Hosek</h3>
-						<p>Graduating Spring 2021<br>
-							Computer Science Major<br>
-							French Minor<br>
-							Cyber Defense Concentration</p>
-						<div>
-							<a class="btn btn-outline-primary" href="mailto:hoseke1@udayton.edu">Email</a>
-							<a class="btn btn-primary" href="https://www.linkedin.com/in/beth-hosek">LinkedIn</a>
-						</div>
-					</div>
-					<div class="team-member col border rounded-3 p-3 mx-2">
-						<img class="mw-100" src="images/dschaeffer.png" alt="Dena Schaeffer" />
-						<h3 class="pt-3 text-center">Dena Schaeffer</h3>
-						<p>Graduating Fall 2021<br>
-							Computer Science & Biology Double Major<br>
-							Cyber Defense Concentration</p>
-						<div>
-							<a class="btn btn-outline-primary" href="mailto:backd1@udayton.edu">Email</a>
-							<a class="btn btn-primary" href="https://www.linkedin.com/in/denaschaeffer">LinkedIn</a>
-						</div>
-					</div>
-					<div class="team-member col border rounded-3 p-3 mx-2">
-						<img class="mw-100" src="images/jscheetz.png" alt="Jacob Scheetz" />
-						<h3 class="pt-3 text-center">Jacob Scheetz</h3>
-						<p>Graduating Spring 2021<br>
-							Computer Science Major<br>
-							Communications Minor<br>
-							Cyber Defense Concentration</p>
-						<div>
-							<a class="btn btn-outline-primary" href="mailto:scheetzj2@udayton.edu">Email</a>
-							<a class="btn btn-primary" href="https://www.linkedin.com/in/jacobscheetz/">LinkedIn</a>
-						</div>
-					</div>
-					<div class="team-member col border rounded-3 p-3 mx-2">
-						<img class="mw-100" src="images/jstall.png" alt="Justen Stall" />
-						<h3 class="pt-3 text-center">Justen Stall</h3>
-						<p>Graduating Spring 2021<br>
-							Computer Science Major<br>
-							IACT Certificate</p>
-						<div>
-							<a class="btn btn-outline-primary" href="mailto:stallj2@udayton.edu">Email</a>
-							<a class="btn btn-primary" href="https://LinkedIn.com/in/justenstall">LinkedIn</a>
-						</div>
-					</div>
-				</div>
-			<!-- </div> -->
-			<div class="col">
-				<br />
-				<h4>Company Mentor</h4>
-				<p class="mb-0">Jeffrey Archer</p>
-				<p class="mb-0">Senior Staff Cybersecurity Researcher</p>
-				<p class="mb-0">GE Aviation</p>
-				<p class="mb-0">Cincinnati, OH</p>
+	<section class="header-section container pt-3">
+		<div class="row justify-content-center mt-3">
+			<div class="col-auto border rounded-3 p-4">
+				<img width="500px" src="images/cyber-turtle-trimmy.png" alt="Cyber-Turtle-Logo">
 			</div>
-			<div class="text-center">
-				<h4 class="text-center">Links:</h4>
-				<a class="btn btn-primary"
+		</div>
+		<div class="">
+			<div class="text-center mt-4 mb-4">
+				<h1 class="">Team 8 • Capstone II Spring 2021 • University of Dayton</h1>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-auto">
+					<img height="80px" src="images/GE-logo.png">
+				</div>
+				<div class="col-auto">
+					<img class="mb-3" height="80px" src="images/daytonlogo.png">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container mt-4">
+		<h2 class="text-center">Meet Our Team</h2>
+		<p>
+			Our team consistents of four senior Computer Science students: Beth Hosek, Dena Schaeffer, Jacob Scheetz and
+			Justen Stall.<br>
+			All of us being interested in the field of cybersecurity, we took a passion to developing a tool that could
+			actually make an impact on GE Aviation's Cyber Intelligence team. After all of the hard work
+			we have poured into this project to make it as practical, user friendly and effective as possible- we are
+			more than proud to present our fully functional Cyber Threat Intelligence command line tool, Cyber Turtle.
+			Get to know us, the Cyber Turtle development team, below:
+		</p>
+
+		<div class="row gx-1 mt-4">
+			<div class="team-member col mx-2">
+				<img class="mw-100 mb-3 px-5" src="images/bhosek.png" alt="Headshot of Beth Hosek" />
+				<div class="border rounded-3 p-3">
+					<h3 class="text-center">Beth Hosek</h3>
+					<p>Graduating Spring 2021<br>
+						Computer Science Major<br>
+						French Minor<br>
+						Cyber Defense Concentration</p>
+					<div class="row justify-content-center">
+						<div class="btn-group" role="group" aria-label="Links">
+							<a class="col-auto btn btn-outline-primary" href="mailto:hoseke1@udayton.edu">Email</a>
+							<a class="col-auto btn btn-outline-primary"
+								href="https://www.linkedin.com/in/beth-hosek">LinkedIn</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="team-member col mx-2">
+				<img class="mw-100 mb-3 px-5" src="images/dschaeffer.png" alt="Headshot of Dena Schaeffer" />
+				<div class="border rounded-3 p-3">
+					<h3 class="text-center">Dena Schaeffer</h3>
+					<p>Graduating Fall 2021<br>
+						Computer Science & Biology Double Major<br>
+						Cyber Defense Concentration</p>
+					<div class="row justify-content-center">
+						<div class="btn-group" role="group" aria-label="Links">
+							<a class="col-auto btn btn-outline-primary" href="mailto:backd1@udayton.edu">Email</a>
+							<a class="col-auto btn btn-outline-primary"
+								href="https://www.linkedin.com/in/denaschaeffer">LinkedIn</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="team-member col mx-2">
+				<img class="mw-100 mb-3 px-5" src="images/jscheetz.png" alt="Headshot of Jacob Scheetz" />
+				<div class="border rounded-3 p-3">
+					<h3 class="text-center">Jacob Scheetz</h3>
+					<p>Graduating Spring 2021<br>
+						Computer Science Major<br>
+						Communications Minor<br>
+						Cyber Defense Concentration</p>
+					<div class="row justify-content-center">
+						<div class="btn-group" role="group" aria-label="Links">
+							<a class="col-auto btn btn-outline-primary" href="mailto:scheetzj2@udayton.edu">Email</a>
+							<a class="col-auto btn btn-outline-primary"
+								href="https://www.linkedin.com/in/jacobscheetz/">LinkedIn</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="team-member col mx-2">
+				<img class="mw-100 mb-3 px-5" src="images/jstall.png" alt="Headshot of Justen Stall" />
+				<div class="border rounded-3 p-3">
+					<h3 class="text-center">Justen Stall</h3>
+					<p>Graduating Spring 2021<br>
+						Computer Science Major<br>
+						IACT Certificate</p>
+					<br>
+					<div class="row justify-content-center">
+						<div class="btn-group" role="group" aria-label="Links">
+							<a class="col-auto btn btn-outline-primary mr-3" href="mailto:stallj2@udayton.edu">Email</a>
+							<a class="col-auto btn btn-outline-primary" href="https://LinkedIn.com/in/justenstall">LinkedIn</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row my-3 justify-content-center">
+			<div class="col-auto">
+				<h4 class="text-center">Company Mentor</h4>
+				<div class="border rounded-3 p-3 pb-0">
+					<h5>Jeffrey Archer</h5>
+					<p>Senior Staff Cybersecurity Researcher <br>
+						GE Aviation <br>
+						Cincinnati, OH</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container mt-4">
+		<h2 class="text-center">Overview</h2>
+		<p>
+			The goal is to develop a classification system that can analyze the text of a threat intelligence report and
+			produce a score which quantifies the relevancy of that report to the receiving organization based on a list
+			of
+			user-defined relevant topics.
+		</p>
+		<p>
+			Our team has been working on the devlopment of a fully functional command line tool for GE Aviation,
+			similar to those that are commonly packaged with security distrobutions of Linux. GE's Cyber Intelligence
+			team faced
+			a problem where their Intelligence Analysts simply did not have enough time to read all of their threat
+			reports dilligently enough. That is where our tool, Cyber Turtle, alleviates the issue.
+			Our tool has the capabilty to parse through some of the most common cyber threat report document types and
+			then provide an
+			analyst with a relevance score on each document based on a database of keywords given to us by GE. This
+			provides the analyst to quickly
+			parse an uncomprehensible amount of content and determine whether it's worth looking over to help secure the
+			business.
+		</p>
+		<div class="text-center">
+			<h4 class="text-center">Links:</h4>
+			<div class="btn-group" role="group" aria-label="Links">
+				<a class="btn btn-outline-primary"
 					href="https://bitbucket.org/cps491s21-team8/cps491s21-team8.bitbucket.io/src/master/">Public
 					Repository</a>
-				<a class="btn btn-primary" href="https://bitbucket.org/cps491s21-team8/cps491s21-team8/src/master/">Private
+				<a class="btn btn-outline-primary"
+					href="https://bitbucket.org/cps491s21-team8/cps491s21-team8/src/master/">Private
 					Repository</a>
-				<a class="btn btn-primary" href="https://trello.com/b/LNj1LyZ5/ge-project">Trello</a>
+				<a class="btn btn-outline-primary" href="https://trello.com/b/LNj1LyZ5/ge-project">Trello</a>
 			</div>
+		</div>
+	</section>
+	<section class="container mt-4">
+		<h2 class="text-center">Project Context and Scope</h2>
+		<p>
+			This project will be used by GE Aviation's Cyber Intelligence team to provide a priority to their research
+			of open-source intelligence (OSINT) reports. <br>
+			As a global company doing high-value work, the volume of relevant reports published daily is too much for
+			even a large team of analysts to read and understand quickly. <br>
+			Our tool would help give priority to what reports need to be read first and what can be overlooked, making sure
+			each piece of vital information gets the attention it needs to continuously give GE's Threat Hunting team a
+			grasp on the cyber space that faces them.
+		</p>
+	</section>
+
+
+
+	<!-- Tool Usage Videos -->
+	<section class="container mt-4">
+		<h2 class="text-center">Cyber Turtle Usage Demos</h2>
+		<section>
+			<h3>Parsing a Directory of Files</h3>
+			<script id="asciicast-408449" data-speed="2" src="https://asciinema.org/a/408449.js" async></script>
+			<p>Figure 3.1 - Live demonstration of Cyber Turtle parsing an entire directory from a bash
+				terminal</p>
+			<ul>
+				<li>Supported file types include pdf and raw html files</li>
+			</ul>
 		</section>
 
-		<section class="container mt-3">
-			<h2 class="text-center">Overview</h2>
-			<p>
-				The goal is to develop a classification system that can analyze the text of a threat intelligence report and
-				produce a score which quantifies the relevancy of that report to the receiving organization based on a list
-				of
-				user-defined relevant topics.
-			</p>
-			<p>
-				Our team has been working on the devlopment of a fully functional command line tool for GE Aviation,
-				similar to those that are commonly packaged with security distrobutions of Linux. GE's Cyber Intelligence
-				team faced
-				a problem where their Intelligence Analysts simply did not have enough time to read all of their threat
-				reports dilligently enough. That is where our tool, Cyber Turtle, alleviates the issue.
-				Our tool has the capabilty to parse through some of the most common cyber threat report document types and
-				then provide an
-				analyst with a relevance score on each document based on a database of keywords given to us by GE. This
-				provides the analyst to quickly
-				parse an uncomprehensible amount of content and determine whether it's worth looking over to help secure the
-				business.
-			</p>
-		</section>
-		<section class="container mt-3">
-			<h2 class="text-center">Project Context and Scope</h2>
-			<p>
-				This project will be used by GE Aviation's Cyber Intelligence team to provide a priority to their research
-				of
-				open-source intelligence (OSINT) reports.
-			</p>
-			<p>
-				As a global company doing high-value work, the volume of relevant reports published daily is too much for
-				even
-				a large team of analysts to read and understand quickly.
-			</p>
-			<p>
-				Our tool would help give priority to what reports need to be read first and what can be overlooked, making
-				sure
-				each piece of vital information gets the attention it needs to continuously give GE's Threat Hunting team a
-				grasp on the cyber space that faces them.
-			</p>
+		<section>
+			<h3> Verbose Mode | Parsing a Directory of Files </h3>
+			<script id="asciicast-408536" data-speed="3" src="https://asciinema.org/a/408536.js" async></script>
+			<p>Figure 3.2 - Live demonstration of Cyber Turtle parsing an entire directory from a bash
+				terminal in verbose mode</p>
+			<p>By enabling the verbose option, the user gets a live insight into:</p>
+			<ul>
+				<li>file is actively being parsed</li>
+				<li class="mt-2">what files have been parsed</li>
+				<li class="mt-2">the time elapsed since starting the tool</li>
+				<li class="mt-2">the TFIDF score which shows the documents relevance in relation overall relevancy of
+					other document sin the same directory</li>
+				<li class="mt-2">the top 7 terms in each document</li>
+			</ul>
 		</section>
 
-
-
-		<!-- Tool Usage Videos -->
-		<section class="container mt-3">
-			<h2 class="contianer mt-3">Tool Usage</h2>
-			<br>
-			<section>
-				<h3>Parsing a Directory of Files</h3>
-				<script id="asciicast-408449" src="https://asciinema.org/a/408449.js" async></script>
-				<p class="mt-2">Figure 3.1 - Live demonstration of Cyber Turtle parsing an entire directory from a bash
-					terminal</p>
-				<p class="mt-2">• Supported file types include pdf and raw html files</p>
-			</section>
-
-			<section>
-				<h3> Verbose Mode | Parsing a Directory of Files </h3>
-				<script id="asciicast-408536" src="https://asciinema.org/a/408536.js" async></script>
-				<p class="mt-2">Figure 3.2 - Live demonstration of Cyber Turtle parsing an entire directory from a bash
-					terminal in verbose mode</p>
-				<p class="mt-2">By enabling the verbose option, the user gets a live insight into:</p>
-				<ul>
-					<li class="mt-2">file is actively being parsed</li>
-					<li class="mt-2">what files have been parsed</li>
-					<li class="mt-2">the time elapsed since starting the tool</li>
-					<li class="mt-2">the TFIDF score which shows the documents relevance in relation overall relevancy of
-						other document sin the same directory</li>
-					<li class="mt-2">the top 7 terms in each document</li>
-				</ul>
-			</section>
-
-			<section>
-				<h3> Parsing a Single URL </h3>
-				<script id="asciicast-408438" src="https://asciinema.org/a/408438.js" async></script>
-				<p class="mt-2">Figure 3.3 - Live demonstration of Cyber Turtle parsing a single URL and providing a
-					relevance score</p>
-				<p class="mt-2">• Provides an analyst the ability to quickly determine the relevance of the content hosted
-					on a URL</p>
-			</section>
-
-			<section>
-				<h3> Parsing an RSS Feed </h3>
-				<script id="asciicast-408433" src="https://asciinema.org/a/408433.js" async></script>
-				<p class="mt-2">Figure 3.4 - Live demonstration of Cyber Turtle parsing an RSS feed (collection of URL's)
-				</p>
-				<p class="mt-2">• Provides an analyst the ability to parse all of the content across a site to determine if
-					there is any relevant articles or intelligence on the website</p>
-			</section>
-
-			<section>
-				<h3> Parsing an OPML File</h3>
-				<script id="asciicast-408411" src="https://asciinema.org/a/408411.js" async></script>
-				<p class="mt-2">Figure 3.4 - Live demonstration of Cyber Turtle parsing an OPML feed (file containing links
-					to many RSS feeds)</p>
-				<p class="mt-2">• Provides the analyst the ability to parse many different RSS feeds all at once</p>
-				<p class="mt-2">• Gives the capabilty to identify intelligence on many different forums across the internet
-					all at once in an automated fashion</p>
-			</section>
-		</section>
-		<!-- End Asciinema Section-->
-
-
-		<section class="container mt-3">
-			<h2 class="text-center">Project Documentation</h2>
-			<section>
-				<h3>Process Diagram</h3>
-				<img class="mw-100" src="images/Process-diagram491.png" alt="">
-				<p>Figure 1. - A Sample of Overview Architecture of the project.</p>
-			</section>
-			<section>
-				<h3>System Diagram</h3>
-				<img class="mw-100" height="1000px" src="images/systemdiagram.png" alt="">
-				<p class="mt-2">Figure 2. - A full system diagram of the project.</p>
-			</section>
+		<section>
+			<h3>Parsing a Single URL</h3>
+			<script id="asciicast-408438" data-speed="2" src="https://asciinema.org/a/408438.js" async></script>
+			<p>Figure 3.3 - Live demonstration of Cyber Turtle parsing a single URL and providing a
+				relevance score</p>
+			<ul>
+				<li>Provides an analyst the ability to quickly determine the relevance of the content hosted
+					on a URL</li>
+			</ul>
 		</section>
 
-
-
-
-		<!-- Container (Contact Section) -->
-		<div id="contact" class="container">
-			<h3 class="text-center">Contact</h3>
-			<p class="text-center">
-				<em>Feel free to contact us with any questions about the tool!</em>
+		<section>
+			<h3>Parsing an RSS Feed</h3>
+			<script id="asciicast-408433" data-speed="2" src="https://asciinema.org/a/408433.js" async></script>
+			<p>Figure 3.4 - Live demonstration of Cyber Turtle parsing an RSS feed (collection of URL's)
 			</p>
+			<ul>
+				<li>Provides an analyst the ability to parse all of the content across a site to determine if
+					there is any relevant articles or intelligence on the website</li>
+			</ul>
+		</section>
 
-			<!-- <div class="row">
+		<section>
+			<h3>Parsing an OPML File</h3>
+			<script id="asciicast-408411" data-speed="2" src="https://asciinema.org/a/408411.js" async></script>
+			<p>Figure 3.4 - Live demonstration of Cyber Turtle parsing an OPML feed (file containing links
+				to many RSS feeds)</p>
+			<ul>
+				<li>Provides the analyst the ability to parse many different RSS feeds all at once</li>
+				<li class="mt-2">Gives the capabilty to identify intelligence on many different forums across the internet
+					all at once in an automated fashion</li>
+			</ul>
+		</section>
+	</section>
+	<!-- End Asciinema Section-->
+
+
+	<section class="container mt-4">
+		<h2 class="text-center">Project Documentation</h2>
+		<section>
+			<h3>Process Diagram</h3>
+			<img class="mw-100" src="images/Process-diagram491.png" alt="">
+			<p>Figure 1. - A Sample of Overview Architecture of the project.</p>
+		</section>
+		<section>
+			<h3>System Diagram</h3>
+			<div class="mermaid">
+				sequenceDiagram
+				participant User
+				participant main
+				participant parser
+				participant relevance
+
+				# File Parsing
+				User->>+main: -f [file]
+				main->>+parser: parseFile([file])
+				parser->>parser: bs4 or pdfminer3 parsing
+				parser-->>-main: file text
+				main->>+relevance: calculate relevance
+				relevance-->>-main: relevance score (basic or TF-IDF)
+				main-->>-User: relevance table
+
+				# Directory Parsing
+				User->>+main: -d [directory]
+				loop for each file
+				main->>+parser: parseFile([file])
+				parser->>parser: bs4 or pdfminer3 parsing
+				parser-->>-main: file text
+				end
+				loop for each article
+				main->>+relevance: calculate relevance
+				relevance-->>-main: relevance score (basic or TF-IDF)
+				end
+				main-->>-User: relevance table
+
+				# URL parsing
+				User->>+main: -u [url]
+				main->>+parser: parseUrl([url])
+				parser->>parser: bs4 parsing
+				parser-->>-main: url title, url text
+				main->>+relevance: calculate relevance
+				relevance-->>-main: relevance score (basic or TF-IDF)
+				main-->>-User: relevance table
+
+				# RSS Parsing
+				User->>+main: -rss [rss]
+				main->>+parser: parseRss([rss])
+				parser-->>-main: rss feed articles
+				loop for each article in rss feed
+				main->>+parser: parseUrl([article])
+				parser->>parser: bs4 parsing
+				parser-->>-main: article title, article text
+				end
+				loop for each article
+				main->>+relevance: calculate relevance
+				relevance-->>-main: relevance score (basic or TF-IDF)
+				end
+				main-->>-User: relevance table
+
+				# OPML Parsing
+				User->>+main: --opml [opml]
+				main->>+parser: parseOpml([opml])
+				parser-->>-main: list of rss feeds
+				loop for each rss feed
+				main->>+parser: for each rss feed: parseRss([rss])
+				parser-->>-main: rss feed articles
+				loop for each article in rss feed
+				main->>+parser: parseUrl([article])
+				parser->>parser: bs4 parsing
+				parser-->>-main: article title, article text
+				end
+				end
+				loop for each article
+				main->>+relevance: calculate relevance
+				relevance-->>-main: relevance score (basic or TF-IDF)
+				end
+				main-->>-User: relevance table
+
+				# Help Menu
+				User->>+main: -h
+				main-->>-User: help menu
+			</div>
+			<p class="mt-2">Figure 2. - A full system diagram of the project.</p>
+		</section>
+	</section>
+
+
+
+
+	<!-- Container (Contact Section) -->
+	<div id="contact" class="container">
+		<h3 class="text-center">Contact</h3>
+		<p class="text-center">
+			<em>Feel free to contact us with any questions about the tool!</em>
+		</p>
+
+		<!-- <div class="row">
 		  <div class="col-md-4">
 			<p><span class="glyphicon glyphicon-map-marker"></span>Dayton, OH</p>
 			<p>
@@ -259,35 +354,40 @@
 			<div id="email" onclick="showhide()">Click to show email</div>
 		  </div> -->
 
-			<div class="col-md">
-				<div class="row">
-					<div class="col-sm-6 form-group">
-						<input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
-					</div>
-					<div class="col-sm-6 form-group">
-						<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
-					</div>
+		<div class="col-md">
+			<div class="row">
+				<div class="col-sm-6 form-group">
+					<input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
 				</div>
-				<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-				<br />
-				<div class="row">
-					<div class="col-md-12 form-group">
-						<button class="btn pull-right" type="submit">Send</button>
-					</div>
+				<div class="col-sm-6 form-group">
+					<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+				</div>
+			</div>
+			<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+			<br />
+			<div class="row">
+				<div class="col-md-12 form-group">
+					<button class="btn pull-right" type="submit">Send</button>
 				</div>
 			</div>
 		</div>
-		</div>
+	</div>
+	</div>
 
-		<!-- Footer -->
-		<footer class="text-center">
-			<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-				<span class="glyphicon glyphicon-chevron-up"></span> </a><br /><br />
-		</footer>
+	<!-- Footer -->
+	<footer class="text-center">
+		<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+			<span class="glyphicon glyphicon-chevron-up"></span> </a><br /><br />
+	</footer>
 
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-			crossorigin="anonymous"></script>
-	</body>
+	<!-- BOOTSTRAP JAVASCRIPT IMPORTS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+		crossorigin="anonymous"></script>
+
+	<!-- MERMAID IMPORT -->
+	<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+	<script>mermaid.initialize({ startOnLoad: true });</script>
+</body>
 
 </html>

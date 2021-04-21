@@ -8,10 +8,10 @@ footer {
   color: #f5f5f5;
   padding: 32px;
 }
-
-.headshot {
-	/* max-width: 100%; */
+img {
+	max-width: 100%;
 }
-/* .container {
-  padding: 80px 120px;
-} */
+
+.team-member {
+	/* border-radius: 50px 50px 4.8px 4.8px; */
+}
