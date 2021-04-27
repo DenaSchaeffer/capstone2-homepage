@@ -40,3 +40,9 @@ section {
 .team-member {
   /* border-radius: 50px 50px 4.8px 4.8px; */
 }
+
+.team-pic {
+  max-width: 200px;
+  max-height: 300px;
+  padding: 0 auto;
+}
