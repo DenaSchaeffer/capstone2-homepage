@@ -66,7 +66,7 @@
 			</div>
 		</div>
 	</nav>
-	<section class="header-section py-3 bg-light border-bottom">
+	<section class="header-section py-3 bg-light">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-auto">
@@ -178,9 +178,10 @@
 	</section>
 
 	<section id="overview" class="container mt-4">
+		<h2 class="text-center">Project Information</h2>
 		<div class="row justify-content-center">
 			<section class="col">
-				<h2 class="text-center">Overview</h2>
+				<h3 class="text-center">Overview</h3>
 				<p>
 					The goal is to develop a classification system that can analyze the text of a threat intelligence report
 					and
@@ -206,7 +207,7 @@
 				</p>
 			</section>
 			<section class="col">
-				<h2 class="text-center">Project Context and Scope</h2>
+				<h3 class="text-center">Project Context and Scope</h3>
 				<p>
 					This project will be used by GE Aviation's Cyber Intelligence team to provide a priority to their
 					research
@@ -239,21 +240,30 @@
 		</div>
 	</section>
 
-
-
 	<!-- Tool Usage Videos -->
 	<section id="demos" class="container mt-4">
-		<h2 class="text-center">Cyber Turtle Usage Demos</h2>
+		<h2 class="text-center">Cyber Turtle Demos</h2>
 		<section>
 			<h3> Using the tool | Help Menu </h3>
 			<ul>
 				<li>
 					The help menu lays out the different options cyber turtle supports
 				</li>
-				<li>
-					Utilize Cyber Turtle by naviagting to the "src" folder after cloning
-				</li>
 			</ul>
+			<h5>Walkthrough:</h5>
+			<ol>
+				<li>Clone the repository</li>
+				<li>Install all Python library dependencies
+					<ul>
+						<li>pdfminer3</li>
+						<li>bs4</li>
+						<li>progress</li>
+						<li>tabulate</li>
+						<li>feedparser</li>
+					</ul>
+				</li>
+				<li>Navigate to the 'src' folder</li>
+			</ol>
 			<p>
 				Figure 3.0 - Live demonstration of how to use Cyber Turtle to view execution options
 			</p>
